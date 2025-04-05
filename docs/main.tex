@@ -24,6 +24,10 @@
 % Use \ref{} instead of \ref{}
 \usepackage[nameinlink]{cleveref}
 \usepackage{hyperref}
+
+\usepackage[style=ieee]{biblatex}
+\addbibresource{references.bib}
+
 % --- TIẾNG VIỆT CHO CLEVEREF ---
 % Định dạng cho \cref (chữ thường)
 \crefname{section}{mục}{các mục}
@@ -99,7 +103,10 @@
 \tableofcontents
 % \listoffigures
 % \listoftables
-
+\section{Nội dung}
+\subsection{Mandelbrot và Julia Set}
+\section{Tham khảo}
 \clearpage
+\printbibliography
 
 \end{document}
