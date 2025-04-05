@@ -15,7 +15,7 @@
 \RequirePackage[center]{caption}
 
 \RequirePackage{fancyhdr,hyperref}
-\RequirePackage[super,square,sort]{natbib}
+% \RequirePackage[super,square,sort]{natbib}
 
 % Change to '[english,vietnamese]' to use Vietnamese labels
 \RequirePackage[vietnamese]{babel}
